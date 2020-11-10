@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solveig's Art</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/uca3cih.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Solveig&rsquo;s Art</h1>
+        <ul class="gallery">
+            <!-- link fancybox to my photos -->  
+            <li><a data-fancybox="gallery" href="images/flatbush.webp"><img src="thumbs/thumbs:flatbush.jpg" alt="Painting of rap group flatbush zombies, black background with colorful stripes."></a><div id="images/flatbush.webp" class="hidden">
+                &lsquo;Flatbush Zombies Portrait&rsquo;</li> <!--I tried putting captions for the zoomed in images, but coulnd't get it to work. I used this site: http://jsfiddle.net/FWTZA/ -->
+            <li><a data-fancybox="gallery" href="images/shroom_jungle.webp"><img src="thumbs/thumbs:shroomjungle.jpg" alt="Painting of multiple mushrooms with green stems and eyes."></a></li>
+            <li><a data-fancybox="gallery" href="images/flowerboy.webp"><img src="thumbs/thumbs:flowerboy.jpg" alt="Painting of flowerboy album cover."></a></li>
+            <li><a data-fancybox="gallery" href="images/kenandsol.webp"><img src="thumbs/thumbs:kenandsol copy.jpg" alt="Portrait of Kenya and Solveig side by side, blue and purple background."></a></li>
+            <li><a data-fancybox="gallery" href="images/purpleshroom.webp"><img src="thumbs/thumbs:purpleshroom.jpg" alt="Painting of purple mushroom with orange eyeball, black background with green slime."></a></li>
+            <li><a data-fancybox="gallery" href="images/treeshroom.webp"><img src="thumbs/thumbs:treeshroom.jpg" alt="Blue mushrooms in front of tree with night sky."></a></li>
+            <!-- thumbnails are 400px, screen size 1400-1200= 200px, 1em on each side of screen plus 2 ems in between each photo -->
+        </ul>
+    </main>
+<footer>Copyright 2020</footer> 
+
+
+
+<!-- include jquery for fancybox -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> 
+<!-- style for fancybox -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<!-- fancybox script -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</body>
+</html>
